@@ -16,6 +16,7 @@ export const Content = styled.div`
 export const Logo = styled.div`
   width: 190px;
   height: 90px;
+  cursor: pointer;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(${logo});

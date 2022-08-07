@@ -11,3 +11,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-card-content {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  background-color: #282c34;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px
+
+
+}

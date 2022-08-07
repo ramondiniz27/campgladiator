@@ -1,4 +1,3 @@
-import info from "../../data.json";
 import { CardInterface } from "../interfaces/Card";
 
 const cardInfo = [

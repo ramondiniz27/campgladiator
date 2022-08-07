@@ -1,5 +1,3 @@
-import { CardInterface } from "./../../interfaces/Card";
-import React from "react";
 import styled from "styled-components";
 
 interface ThumbProps {
@@ -9,7 +7,7 @@ interface ThumbProps {
 export const Content = styled.div`
   display: flex;
   width: 250px;
-  height: 350px;
+  height: 450px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: #fff;
@@ -24,4 +22,46 @@ export const Thumb = styled.div<ThumbProps>`
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(${(props) => props.image});
+`;
+
+export const TextContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  align-items: flex-start;
+`;
+
+export const Title = styled.div`
+  width: 240px;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-size: 16px;
+  color: red;
+`;
+
+export const Description = styled.div`
+  width: 240px;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-size: 12px;
+`;
+
+export const Tag = styled.div`
+  width: 240px;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-size: 12px;
+  color: red;
+`;
+
+export const VideoButton = styled.button`
+  background-color: black;
+  align-self: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 150px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  min-height: 50px;
 `;
